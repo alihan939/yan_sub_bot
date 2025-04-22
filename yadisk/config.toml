@@ -1,0 +1,13 @@
+[marzban]
+host = "your-marzban-panel.com" # Домен или IP без протокола и порта
+port = 8000 # Порт панели
+ssl = true # Использовать HTTPS
+username = "admin"
+password = "admin_password"
+
+[telegram]
+bot_token = "your_telegram_bot_token"
+admin_id = 1234567890
+
+[yandex]
+oauth_token = "y0__xCS-JyMCBiSlzcg2ci68RKrY8scKiOyKscat7UnJMjmwxlw0w"

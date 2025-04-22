@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  marzban-bot:
+    build: .
+    volumes:
+      - ./config.toml:/app/config.toml
+    restart: unless-stopped
